@@ -1,0 +1,44 @@
+{
+  "id": "2816334",
+  "name": "Light Dance",
+  "font_family": "iconfont",
+  "css_prefix_text": "ld-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "77156",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5889221",
+      "name": "最小化",
+      "font_class": "zuixiaohua",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "10606259",
+      "name": "最大化",
+      "font_class": "zuidahua",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "15838444",
+      "name": "close",
+      "font_class": "closebtn",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "19975643",
+      "name": "dark",
+      "font_class": "dark",
+      "unicode": "e7ad",
+      "unicode_decimal": 59309
+    }
+  ]
+}

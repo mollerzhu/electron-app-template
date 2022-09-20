@@ -1,0 +1,41 @@
+/**
+ * @see https://www.electron.build/configuration/configuration
+ */
+{
+  productName: "Electron App Template",
+  appId: "app.electron.org",
+  copyright: "Moller Zhu",
+  npmRebuild: "false",
+  asar: true,
+  directories: {
+    output: "release/${version}",
+  },
+  publish: {
+    provider: "generic",
+    url: "http://fontlink.cn/update",
+  },
+  files: ["dist"],
+  extraResources: {
+    from: "./static",
+    to: "../static",
+  },
+  mac: {
+    artifactName: "${productName}_${version}.${ext}",
+    target: ["dmg"],
+  },
+  win: {
+    target: [
+      {
+        target: "nsis",
+        arch: ["x64"],
+      },
+    ],
+    artifactName: "${productName}_${version}.${ext}",
+  },
+  nsis: {
+    oneClick: false,
+    perMachine: false,
+    allowToChangeInstallationDirectory: true,
+    deleteAppDataOnUninstall: false,
+  },
+}

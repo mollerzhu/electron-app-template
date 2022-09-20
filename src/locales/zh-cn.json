@@ -1,0 +1,30 @@
+{
+  "home": {
+    "recomended": "推荐使用的IDE设置:",
+    "see": "查阅",
+    "formore": "获取更多信息",
+    "vitedocs": "Vite文档",
+    "vuedocs": "Vue3 文档",
+    "edit": "编辑 ",
+    "teshot": " 测试热更新",
+    "place": "将静态文件放置于 ",
+    "folder": " 文件夹"
+  },
+  "function": {
+    "sqlite": "SQLite 3 支持",
+    "sqlitep": "本模板支持SQLite 3数据的方便读写",
+    "dbfile": "DB文件路径",
+    "sqlitebtn": "显示SQLite数据",
+    "update": "更新管理",
+    "checkupdate": "检查更新",
+    "window": "子窗体管理",
+    "childwindow": "打开子窗体",
+    "changetheme": "暗色主题切换",
+    "themep": "主题配置持久化使用了vueuse",
+    "changebtn": "切换主题色",
+    "i18n": "国际化",
+    "i18ntest": "这里是语言测试",
+    "i18nlang": "组件语言",
+    "pickdate": "请选择日期"
+  }
+}

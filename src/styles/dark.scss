@@ -1,0 +1,13 @@
+html.dark {
+  --el-text-color: #bbb;
+  --el-code-bgcolor: #444;
+  background-color: rgb(43, 40, 40);
+}
+html.dark p,
+div {
+  color: var(--el-text-color);
+}
+html.dark code {
+  color: var(--el-text-color);
+  background-color: var(--el-code-bgcolor);
+}

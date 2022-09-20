@@ -1,0 +1,57 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+ul,
+li {
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* title bar */
+#titlebar {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  -webkit-app-region: drag;
+}
+.softlogo {
+  padding: 6px 6px;
+}
+.maintitle {
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.controlbtn {
+  padding: 0;
+}
+.controlbtn li {
+  cursor: pointer;
+  float: left;
+  height: 29px;
+  padding: 1px 10px 0 10px;
+  -webkit-app-region: no-drag;
+}
+.controlbtn li:hover {
+  background-color: rgba($color: #888, $alpha: 0.2);
+}
+.controlbtn li:last-child:hover {
+  color: #fff;
+  background: #c70404;
+}
+.controlbtn .iconfont {
+  font-size: 14px;
+  line-height: 30px;
+}
+.mainbody {
+  height: calc(100vh - 60px);
+}
+#changeT {
+  font-size: 16px;
+}

@@ -1,0 +1,30 @@
+{
+  "home": {
+    "recomended": "Recommended IDE setup:",
+    "see": "See",
+    "formore": "for more infomation.",
+    "vitedocs": "Vite Docs",
+    "vuedocs": "Vue 3 Docs",
+    "edit": "Edit",
+    "teshot": "to test hot module repacement.",
+    "place": "Place static files into the",
+    "folder": "folder"
+  },
+  "function": {
+    "sqlite": "SQLite 3 support",
+    "sqlitep": "Support SQLite 3 reading and writting",
+    "dbfile": "DB file",
+    "sqlitebtn": "Show SQlite data",
+    "update": "Update",
+    "checkupdate": "Check for updates",
+    "window": "Child window",
+    "childwindow": "Open child window",
+    "changetheme": "Theme changing",
+    "themep": "Use vueuse to control theme persistence",
+    "changebtn": "Switch Light/Dark",
+    "i18n": "i18n",
+    "i18ntest": "This is a language test",
+    "i18nlang": "Components language",
+    "pickdate": "Pick a"
+  }
+}
