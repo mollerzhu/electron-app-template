@@ -8,7 +8,7 @@
             <span />
             <img style="height:140px;" src="@/assets/vue.png">
         </div>
-        <HelloWorld msg="Vue 3 + TypeScript + Vite1" />
+        <HelloWorld msg="Vue 3 + TypeScript + Vite" />
         <div class="static-public">
             {{ $t('home.place') }} <code>/public</code> {{ $t('home.folder') }}
             <img style="width:77px;" :src="'./node.png'">
